@@ -38,6 +38,15 @@
                             <td>{{$alumno->estado == '0' ? 'Activo' : 'Desactivado'}}</td>
                             <td>{{ $alumno->created_at }}</td>
                             <td>{{ $alumno->updated_at }}</td>
+                            <td>
+                                <form action="{{ route('alumnos.delete', $alumno->id) }}" method="POST"
+                                    onsubmit="return confirm('¿Estás seguro de que deseas eliminar este alumno?');">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="delete-button">Eliminar</button>
+                                </form>
+                                
+                            </td>
                         </tr>
                     @endforeach
                 </tbody>

@@ -59,3 +59,15 @@ th {
     background-color: #447858;
     color: white;
 }
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #c0392b;
+}

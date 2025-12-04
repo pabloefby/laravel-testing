@@ -33,4 +33,12 @@ class newUser extends Controller
         // Redirect or return a response
         return redirect()->route('alumnos')->with('success', 'Usuario registrado exitosamente!');
     }
+
+    public function borrar($id)
+    {
+        $alumno = User::findOrFail($id);
+        $alumno->delete();
+
+        return redirect()->route('alumnos')->with('success', 'Alumno eliminado exitosamente!');
+    }
 }

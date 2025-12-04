@@ -11,7 +11,7 @@
 <body>
 
     <div class="main-container">
-        <h1>Bienvenido a la pagina principal</h1>s
+        <h1>Bienvenido a la pagina principal</h1>
         <a href="/registro">Registrate</a>
         <a href="/alumnos">Alumnos registrados</a>
     </div>

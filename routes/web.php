@@ -17,3 +17,4 @@ Route::get('/alumnos', [newUser::class, 'getall'])->name('alumnos');
 //Controladores 
 Route::get('/usuarios', [newUser::class, 'getall'])->name('usuarios.index');
 Route::post('/usuarios', [newUser::class, 'insert'])->name('usuarios.store');
+Route::delete('/alumnos/{id}', [newUser::class, 'borrar'])->name('alumnos.delete');
