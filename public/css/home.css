@@ -1,0 +1,41 @@
+html, body{
+    background: linear-gradient(135deg, #363c56 0%, #764ba2 100%);
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px
+}
+
+.main-container h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: #ffcc00 1px 0 10px;
+}
+
+.main-container a{
+    color: #636b6f;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #636b6f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+}
+
+.main-container a:hover{
+    background-color: #636b6f;
+    color: white;
+}

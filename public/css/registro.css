@@ -1,0 +1,97 @@
+html, body{
+    background: linear-gradient(135deg, #363c56 0%, #764ba2 100%);
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-container, .form-container {
+    background-color: white;
+    width: 50%;
+    border-radius: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#redirect-button{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #902b94;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#redirect-button:hover{
+    background-color: #b85fc1;
+}
+
+.form-container h2{
+    margin: 0
+}
+.form-container h4{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.form-tag-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.form-tag-container label {
+    width: 100%; 
+    display: block;
+}
+
+
+.input-field {
+
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block; 
+    box-sizing: border-box; 
+
+}
+
+
+.form-tag-container button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #22b658;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-tag-container button:hover{
+    background-color: #88e8ad;
+}
